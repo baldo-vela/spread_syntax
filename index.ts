@@ -17,3 +17,9 @@ let danceMoves: [string, number, boolean][] = [
     ['tail feather shake', 4, true],
     ['clap', 4, true],
   ];
+/* 
+Perform the whole dance from start to finish by looping over the danceMoves array in whatever way you like, but make sure to use JavaScript’s spread syntax within performDanceMove().
+
+It’s time to see the results of the dance! Run tsc to transpile the code to JavaScript and then run it with node index.js. 
+*/
+danceMoves.forEach (move => performDanceMove(...move,));
