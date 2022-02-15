@@ -1,0 +1,9 @@
+{
+  // copied from https://www.codecademy.com/courses/learn-typescript/lessons/typescript-arrays/exercises/spread-syntax
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "strictNullChecks": true
+  },
+  "include": ["**/*.ts"]
+}
