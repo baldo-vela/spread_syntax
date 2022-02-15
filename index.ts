@@ -6,7 +6,8 @@ function performDanceMove(moveName:string, moveReps:number, hasFlair:boolean) :v
         }
     }
 
-let danceMoves = [
+// Please provide a type annotation for the danceMoves array that will ensure compatibility with the performDanceMove() function.
+let danceMoves: [string, number, boolean][] = [
     ['chicken beak', 4, false],
     ['wing flap', 4, false],
     ['tail feather shake', 4, false],
